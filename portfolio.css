@@ -1,0 +1,59 @@
+*{
+    background-color: #0e0101;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.name{
+    font-size:1rem;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    filter: drop-shadow(2px 2px 2px rgb(236, 236, 51));
+    color: yellow;
+}
+.banner{
+    background-image: url(https://occ-0-7613-3663.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABeqU5y13eHjQ6rfOYnpZUi3Rs_tf8KhstGfq_LmpqDzeR0UmZ_Op7pNso4OFiL97UO-hwXayjoAue7TL_Okys9Q280u7XZJpbOle.jpg?r=834&quot;);
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    height: 680px;
+    background-color: #111;
+    margin: 0cm;
+    padding: 0;
+    
+
+}
+.posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin: 1% 0.5%;
+    box-sizing: border-box;
+}
+.posters::-webkit-scrollbar{
+    display: none;
+}
+.poster{
+    margin: 0% 0.5%;
+    border-radius: 0.4%;
+}
+
+h1{
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 0px 0px 10px;
+}
+h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 2% 0;
+    margin: 2px 0px 0px;
+}
+
